@@ -1,0 +1,36 @@
+#message-template{
+    background-color:lavender;
+    color:black;
+    padding: 1px 10px 1px 10px;
+    border-radius: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: fit-content;
+}
+#img{
+    border-radius: 50%;
+}
+#avatar{
+    margin: 5px;
+    width:40px;
+    height:auto;
+     border-radius:50%;
+}
+#mess{
+    display: flex;
+    align-items: flex-end;
+}
+#message{
+    text-align: center;
+    margin-top: 0.73rem;
+    margin-bottom: 0.73rem;
+}
+#username{
+    margin: 0;
+    text-align: left;
+}
+#time{
+    text-align: right;   
+    margin: 0;
+}

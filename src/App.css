@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+.Group{
+  margin:0;
+  background-color:navy;
+}
+
+Group:h1{
+  background-color:lightgray;
+}
+
+.GroupList{
+  margin:0;
+  height: 100%;
+  background-color: navy;
+  text-align: center;
+}
+
+.group-wrap{
+  margin:0;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
