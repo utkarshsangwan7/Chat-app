@@ -23,8 +23,8 @@ const Login = ({onClickLogin})=>{
                             <input id='username' type='text' onChange={onChangeSetUsername} autoComplete='off' placeholder="Username"></input>
                         </div>
                         <div className='room'> 
-                            <h3>Room ID</h3>
-                            <input id='roomid' type='text' onChange={onChangeSetRoomid} autoComplete='off' placeholder="Room ID"></input>
+                            <h3>IP Address</h3>
+                            <input id='roomid' type='text' onChange={onChangeSetRoomid} autoComplete='off' placeholder="IP Address"></input>
                         </div>
                         <button id="join" onClick={()=>{onClickLogin({username,roomid})}}>Join</button>
                     </div>

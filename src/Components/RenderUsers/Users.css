@@ -6,6 +6,9 @@
     background-color: white;
     border-radius: 10px;
 }
+.search-friends{
+    margin: 0.5vw;
+}
 #chat-bot{
     display: flex;
     justify-content: center;
